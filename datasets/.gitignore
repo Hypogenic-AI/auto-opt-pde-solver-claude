@@ -1,0 +1,22 @@
+# Exclude all data files (can be large)
+*
+
+# But include documentation and small samples
+!.gitignore
+!README.md
+!**/README.md
+!**/samples/
+!**/download.sh
+!**/download_instructions.txt
+
+# Specific data file patterns to exclude
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+*.csv
+*.parquet
+data/

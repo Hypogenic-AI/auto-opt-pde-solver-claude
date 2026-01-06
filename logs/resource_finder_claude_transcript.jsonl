@@ -1,0 +1,31 @@
+I have completed the resource finding phase for the research project on Automatic Optimization of a PDE Solver. Here's a summary of what was accomplished:
+
+## Summary
+
+### Papers Downloaded (6 total)
+1. **Hardware Acceleration for HPS Algorithms** (arXiv:2503.17535) - Primary paper describing jaxhps
+2. **GPU Optimizations for the HPS Scheme** (arXiv:2211.14969) - Batched linear algebra optimizations
+3. **A Two-Level Direct Solver for HPS** (arXiv:2503.04033) - Novel dense GPU + sparse solver approach
+4. **Bringing PDEs to JAX with Autodiff** (arXiv:2309.07137) - JAX integration patterns
+5. **HPS Tutorial** (arXiv:1506.01308) - Foundational algorithm description
+6. **Modular HPS Solvers** (arXiv:2510.26945) - Modular design insights
+
+### Code Repositories Cloned (3 total)
+1. **jaxhps** - Primary target for optimization (JAX HPS implementation)
+2. **PDEBench** - Neural solver benchmarks for comparison
+3. **HPS** - C++ reference implementation
+
+### Datasets Documented
+1. **jaxhps built-in test problems** - Immediately usable for experiments
+2. **PDEBench** - Download instructions provided (~100GB, 2D Darcy Flow most relevant)
+3. **NIST AMR Benchmarks** - Standard validation problems
+
+### Key Deliverables Created
+- `literature_review.md` - Comprehensive synthesis of papers with recommendations
+- `resources.md` - Complete catalog of all resources
+- `papers/README.md` - Paper descriptions and relevance
+- `datasets/README.md` - Download instructions and usage
+- `code/README.md` - Repository documentation and optimization targets
+- `.resource_finder_complete` - Completion marker
+
+The research is now ready for the experiment runner phase. The jaxhps codebase provides immediate optimization targets for parallelization, kernel fusion, and spectral-to-uniform interpolation as specified in the research hypothesis.

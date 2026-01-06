@@ -1,0 +1,46 @@
+{
+  "mesh_generation": [
+    {
+      "tol": 0.01,
+      "time_mean": 1.4550360769499093,
+      "time_std": 1.8972323392997257,
+      "n_leaves": 4,
+      "depth": "1"
+    },
+    {
+      "tol": 0.001,
+      "time_mean": 0.9973413482463608,
+      "time_std": 0.6894460220162639,
+      "n_leaves": 16,
+      "depth": "2"
+    },
+    {
+      "tol": 0.0001,
+      "time_mean": 0.5172620700517049,
+      "time_std": 0.009191369966448601,
+      "n_leaves": 16,
+      "depth": "2"
+    }
+  ],
+  "adaptive_analysis": {
+    "p": 12,
+    "n_leaves": 16,
+    "depth": "2",
+    "build_time": 7.10552864195779,
+    "solve_time_mean": 0.01935002119280398,
+    "solve_time_std": 0.0020257388591580685
+  },
+  "uniform_vs_adaptive": {
+    "uniform_build_time": 3.1546424850821495,
+    "uniform_solve_time_mean": 0.00215418036095798,
+    "uniform_solve_time_std": 0.0003310263935485123,
+    "uniform_n_leaves": 64,
+    "adaptive_build_time": 0.9750508728902787,
+    "adaptive_solve_time_mean": 0.005152165843173862,
+    "adaptive_solve_time_std": 0.0031704126278045905,
+    "adaptive_n_leaves": 4,
+    "adaptive_depth": "1",
+    "p": 12,
+    "L_uniform": 3
+  }
+}

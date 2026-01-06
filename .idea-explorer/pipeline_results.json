@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 574.9336354732513
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1066.4167063236237,
+      "log_file": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/logs/execution_claude.log",
+      "transcript_file": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/auto-opt-pde-solver-claude"
+}

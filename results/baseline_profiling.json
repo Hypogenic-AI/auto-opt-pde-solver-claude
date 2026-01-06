@@ -1,0 +1,223 @@
+{
+  "baseline": [
+    {
+      "p": 8,
+      "L": 2,
+      "n_leaves": 16,
+      "n_interior_pts": 1024,
+      "build_time_mean": 0.8954318273657312,
+      "build_time_std": 1.2535674661759106,
+      "solve_time_mean": 0.10033502336591482,
+      "solve_time_std": 0.13873179467187827,
+      "total_time_mean": 0.9957668507316461,
+      "rel_error": 1.4226001806554562,
+      "n_runs": 3
+    },
+    {
+      "p": 8,
+      "L": 3,
+      "n_leaves": 64,
+      "n_interior_pts": 4096,
+      "build_time_mean": 0.8234430405621728,
+      "build_time_std": 1.1303577809031466,
+      "solve_time_mean": 0.1358298729173839,
+      "solve_time_std": 0.18762505694197504,
+      "total_time_mean": 0.9592729134795567,
+      "rel_error": 0.09529966654176203,
+      "n_runs": 3
+    },
+    {
+      "p": 8,
+      "L": 4,
+      "n_leaves": 256,
+      "n_interior_pts": 16384,
+      "build_time_mean": 1.271873925657322,
+      "build_time_std": 1.7017059122948992,
+      "solve_time_mean": 0.18224267739181718,
+      "solve_time_std": 0.25191643684286513,
+      "total_time_mean": 1.454116603049139,
+      "rel_error": 0.0025537764802486245,
+      "n_runs": 3
+    },
+    {
+      "p": 12,
+      "L": 2,
+      "n_leaves": 16,
+      "n_interior_pts": 2304,
+      "build_time_mean": 0.8726615039631724,
+      "build_time_std": 1.1919539279002926,
+      "solve_time_mean": 0.09805587438556056,
+      "solve_time_std": 0.13550278818200814,
+      "total_time_mean": 0.970717378348733,
+      "rel_error": 0.12471658531795039,
+      "n_runs": 3
+    },
+    {
+      "p": 12,
+      "L": 3,
+      "n_leaves": 64,
+      "n_interior_pts": 9216,
+      "build_time_mean": 1.0667118223694463,
+      "build_time_std": 1.3772405501833505,
+      "solve_time_mean": 0.1416205116547644,
+      "solve_time_std": 0.1933296972053086,
+      "total_time_mean": 1.2083323340242107,
+      "rel_error": 0.0009387766281578891,
+      "n_runs": 3
+    },
+    {
+      "p": 12,
+      "L": 4,
+      "n_leaves": 256,
+      "n_interior_pts": 36864,
+      "build_time_mean": 1.766877146049713,
+      "build_time_std": 1.4098491516912377,
+      "solve_time_mean": 0.22133657367279133,
+      "solve_time_std": 0.30173967360912396,
+      "total_time_mean": 1.9882137197225043,
+      "rel_error": 5.8072222380686e-07,
+      "n_runs": 3
+    },
+    {
+      "p": 16,
+      "L": 2,
+      "n_leaves": 16,
+      "n_interior_pts": 4096,
+      "build_time_mean": 1.0507231490531315,
+      "build_time_std": 1.004823565334798,
+      "solve_time_mean": 0.09799830762979884,
+      "solve_time_std": 0.1346294460635124,
+      "total_time_mean": 1.1487214566829302,
+      "rel_error": 0.002262028523826554,
+      "n_runs": 3
+    },
+    {
+      "p": 16,
+      "L": 3,
+      "n_leaves": 64,
+      "n_interior_pts": 16384,
+      "build_time_mean": 1.157500332298999,
+      "build_time_std": 1.3370518335371713,
+      "solve_time_mean": 0.163432921981439,
+      "solve_time_std": 0.22310303915798768,
+      "total_time_mean": 1.320933254280438,
+      "rel_error": 8.687355561587395e-07,
+      "n_runs": 3
+    },
+    {
+      "p": 16,
+      "L": 4,
+      "n_leaves": 256,
+      "n_interior_pts": 65536,
+      "build_time_mean": 2.495185424340889,
+      "build_time_std": 1.1605970388281652,
+      "solve_time_mean": 0.26360197163497406,
+      "solve_time_std": 0.3577781814047727,
+      "total_time_mean": 2.758787395975863,
+      "rel_error": 2.8321012202070506e-11,
+      "n_runs": 3
+    }
+  ],
+  "interpolation": [
+    {
+      "p": 8,
+      "n_target_pts": 50,
+      "interp_time_mean": 0.0033708802424371243,
+      "interp_time_std": 0.0010613145551740628,
+      "n_source_pts": 1024,
+      "n_target_total": 2500
+    },
+    {
+      "p": 8,
+      "n_target_pts": 100,
+      "interp_time_mean": 0.009891579393297434,
+      "interp_time_std": 0.004579596765587237,
+      "n_source_pts": 1024,
+      "n_target_total": 10000
+    },
+    {
+      "p": 8,
+      "n_target_pts": 200,
+      "interp_time_mean": 0.04988682963885367,
+      "interp_time_std": 0.011817947439197287,
+      "n_source_pts": 1024,
+      "n_target_total": 40000
+    },
+    {
+      "p": 12,
+      "n_target_pts": 50,
+      "interp_time_mean": 0.006014286819845438,
+      "interp_time_std": 0.002293490826158662,
+      "n_source_pts": 2304,
+      "n_target_total": 2500
+    },
+    {
+      "p": 12,
+      "n_target_pts": 100,
+      "interp_time_mean": 0.021835283609107137,
+      "interp_time_std": 0.007245368895863693,
+      "n_source_pts": 2304,
+      "n_target_total": 10000
+    },
+    {
+      "p": 12,
+      "n_target_pts": 200,
+      "interp_time_mean": 0.1068892942275852,
+      "interp_time_std": 0.032137029007566584,
+      "n_source_pts": 2304,
+      "n_target_total": 40000
+    },
+    {
+      "p": 16,
+      "n_target_pts": 50,
+      "interp_time_mean": 0.010365315806120634,
+      "interp_time_std": 0.0042735480834673895,
+      "n_source_pts": 4096,
+      "n_target_total": 2500
+    },
+    {
+      "p": 16,
+      "n_target_pts": 100,
+      "interp_time_mean": 0.04779815883375704,
+      "interp_time_std": 0.012553467919188262,
+      "n_source_pts": 4096,
+      "n_target_total": 10000
+    },
+    {
+      "p": 16,
+      "n_target_pts": 200,
+      "interp_time_mean": 0.17130824280902743,
+      "interp_time_std": 0.04039477084464529,
+      "n_source_pts": 4096,
+      "n_target_total": 40000
+    },
+    {
+      "p": 20,
+      "n_target_pts": 50,
+      "interp_time_mean": 0.016294326959177853,
+      "interp_time_std": 0.005773412995302088,
+      "n_source_pts": 6400,
+      "n_target_total": 2500
+    },
+    {
+      "p": 20,
+      "n_target_pts": 100,
+      "interp_time_mean": 0.07455263724550605,
+      "interp_time_std": 0.022930203533259017,
+      "n_source_pts": 6400,
+      "n_target_total": 10000
+    },
+    {
+      "p": 20,
+      "n_target_pts": 200,
+      "interp_time_mean": 0.23150009606033564,
+      "interp_time_std": 0.06583159354014304,
+      "n_source_pts": 6400,
+      "n_target_total": 40000
+    }
+  ],
+  "metadata": {
+    "jax_version": "0.8.2",
+    "device": "TFRT_CPU_0"
+  }
+}

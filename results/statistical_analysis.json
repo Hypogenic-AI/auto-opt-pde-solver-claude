@@ -1,0 +1,18 @@
+{
+  "interpolation": {
+    "mean_speedup": 5.155881468866451,
+    "std_speedup": 1.7257336742503553,
+    "cohens_d": 0.858267313603038,
+    "p_value": 0.00911508424567377
+  },
+  "kernel_fusion": {
+    "mean_speedup": 16.094724631897847,
+    "std_speedup": 11.69092474614849,
+    "cohens_d": 1.3242010471357497,
+    "p_value": 1.1505265499260993e-06
+  },
+  "combined": {
+    "mean_speedup": 5.158079344792625,
+    "std_speedup": 1.0893315782037
+  }
+}
