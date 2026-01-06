@@ -1,0 +1,38 @@
+idea:
+  title: Automatic Optimization of a PDE Solver
+  domain: scientific_computing
+  hypothesis: 'Automatic AI scientist methods can improve the performance and efficiency
+    of a PDE optimizer, specifically by enhancing parallelization for adaptive grids,
+    enabling kernel fusion, and optimizing interpolation from spectral to uniform
+    grids.
+
+    '
+  background:
+    description: 'The project aims to test whether automatic AI scientist approaches
+      can improve a PDE optimizer implemented in JAX. Current limitations include
+      lack of parallelization for adaptive grids during the merge step, separation
+      of local solve and merge stages that may benefit from kernel fusion, and inefficient
+      interpolation from spectral to uniform grids using dense matrix-vector products
+      instead of fast Fourier transforms. The project references the jaxhps codebase
+      and its associated paper, and suggests exploring tools like OpenEvolve and ShinkaEvolve.
+
+      '
+    papers:
+    - url: https://arxiv.org/abs/2503.17535
+      description: Associated paper for the jaxhps project as referenced in the idea
+        content.
+    code_references:
+    - repo: https://github.com/meliao/jaxhps
+      description: Python package written in JAX for PDE optimization.
+    - repo: https://github.com/algorithmicsuperintelligence/openevolve
+      description: OpenEvolve tool as suggested for experimentation.
+    - repo: https://github.com/SakanaAI/ShinkaEvolve
+      description: ShinkaEvolve tool as suggested for experimentation.
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/36AkmRNwLCECofMPPkmp
+    idea_id: automatic_optimization_of_a_pd_20260106_104826_e8c00e2e
+    created_at: '2026-01-06T10:48:26.594101'
+    status: submitted
+    github_repo_name: auto-opt-pde-solver-claude
+    github_repo_url: https://github.com/Hypogenic-AI/auto-opt-pde-solver-claude
